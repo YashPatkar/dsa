@@ -1,0 +1,189 @@
+{
+    // Use IntelliSense to learn about possible attributes.
+    // Hover to view descriptions of existing attributes.
+    // For more information, visit: https://go.microsoft.com/fwlink/?linkid=830387
+    "version": "0.2.0",
+    "configurations": [
+        {
+            "type": "java",
+            "name": "Current File",
+            "request": "launch",
+            "mainClass": "${file}"
+        },
+        {
+            "type": "java",
+            "name": "checkSortedArray",
+            "request": "launch",
+            "mainClass": "checkSortedArray",
+            "projectName": "Arrays_a6472fdd"
+        },
+        {
+            "type": "java",
+            "name": "copyArray",
+            "request": "launch",
+            "mainClass": "copyArray",
+            "projectName": "Arrays_a6472fdd"
+        },
+        {
+            "type": "java",
+            "name": "countEle",
+            "request": "launch",
+            "mainClass": "countEle",
+            "projectName": "Arrays_a6472fdd"
+        },
+        {
+            "type": "java",
+            "name": "evenoddsorting",
+            "request": "launch",
+            "mainClass": "evenoddsorting",
+            "projectName": "Arrays_a6472fdd"
+        },
+        {
+            "type": "java",
+            "name": "findEle",
+            "request": "launch",
+            "mainClass": "findEle",
+            "projectName": "Arrays_a6472fdd"
+        },
+        {
+            "type": "java",
+            "name": "firstRepetedValue",
+            "request": "launch",
+            "mainClass": "firstRepetedValue",
+            "projectName": "Arrays_a6472fdd"
+        },
+        {
+            "type": "java",
+            "name": "frequencyArray",
+            "request": "launch",
+            "mainClass": "frequencyArray",
+            "projectName": "Arrays_a6472fdd"
+        },
+        {
+            "type": "java",
+            "name": "greaterELe",
+            "request": "launch",
+            "mainClass": "greaterELe",
+            "projectName": "Arrays_a6472fdd"
+        },
+        {
+            "type": "java",
+            "name": "lastOccurance",
+            "request": "launch",
+            "mainClass": "lastOccurance",
+            "projectName": "Arrays_a6472fdd"
+        },
+        {
+            "type": "java",
+            "name": "maxEle",
+            "request": "launch",
+            "mainClass": "maxEle",
+            "projectName": "Arrays_a6472fdd"
+        },
+        {
+            "type": "java",
+            "name": "min_maxEle",
+            "request": "launch",
+            "mainClass": "min_maxEle",
+            "projectName": "Arrays_a6472fdd"
+        },
+        {
+            "type": "java",
+            "name": "nondecreaseSort",
+            "request": "launch",
+            "mainClass": "nondecreaseSort",
+            "projectName": "Arrays_a6472fdd"
+        },
+        {
+            "type": "java",
+            "name": "paircheck",
+            "request": "launch",
+            "mainClass": "paircheck",
+            "projectName": "Arrays_a6472fdd"
+        },
+        {
+            "type": "java",
+            "name": "pointersorting",
+            "request": "launch",
+            "mainClass": "pointersorting",
+            "projectName": "Arrays_a6472fdd"
+        },
+        {
+            "type": "java",
+            "name": "prefixsum1",
+            "request": "launch",
+            "mainClass": "prefixsum1",
+            "projectName": "Arrays_a6472fdd"
+        },
+        {
+            "type": "java",
+            "name": "reverse1",
+            "request": "launch",
+            "mainClass": "reverse1",
+            "projectName": "Arrays_a6472fdd"
+        },
+        {
+            "type": "java",
+            "name": "reverse2",
+            "request": "launch",
+            "mainClass": "reverse2",
+            "projectName": "Arrays_a6472fdd"
+        },
+        {
+            "type": "java",
+            "name": "rotatebyK",
+            "request": "launch",
+            "mainClass": "rotatebyK",
+            "projectName": "Arrays_a6472fdd"
+        },
+        {
+            "type": "java",
+            "name": "rotatebyK2",
+            "request": "launch",
+            "mainClass": "rotatebyK2",
+            "projectName": "Arrays_a6472fdd"
+        },
+        {
+            "type": "java",
+            "name": "secondLargestEle",
+            "request": "launch",
+            "mainClass": "secondLargestEle",
+            "projectName": "Arrays_a6472fdd"
+        },
+        {
+            "type": "java",
+            "name": "sort0s1s",
+            "request": "launch",
+            "mainClass": "sort0s1s",
+            "projectName": "Arrays_a6472fdd"
+        },
+        {
+            "type": "java",
+            "name": "sum",
+            "request": "launch",
+            "mainClass": "sum",
+            "projectName": "Arrays_a6472fdd"
+        },
+        {
+            "type": "java",
+            "name": "swap",
+            "request": "launch",
+            "mainClass": "swap",
+            "projectName": "Arrays_a6472fdd"
+        },
+        {
+            "type": "java",
+            "name": "tripletcheck",
+            "request": "launch",
+            "mainClass": "tripletcheck",
+            "projectName": "Arrays_a6472fdd"
+        },
+        {
+            "type": "java",
+            "name": "uniqueNumber",
+            "request": "launch",
+            "mainClass": "uniqueNumber",
+            "projectName": "Arrays_a6472fdd"
+        }
+    ]
+}
