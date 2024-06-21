@@ -11,28 +11,26 @@
 public class rotatebyK3 {
     public static void main(String[] args) {
         int nums[] = {1,2,3,4,5,6,7};
-        int num2[] = new int[nums.length];
+        // int num2[] = {1,2,3,4,5,6,7};
         int k = 3;
-        int index = 0;
-        int start = nums.length - k;
-        for(int i = start; i < nums.length; i++)
+        k = k % nums.length;
+        reverse(nums, 0, nums.length - 1);
+        reverse(nums, 0, k - 1);
+        reverse(nums, k, nums.length - 1);
+    }
+    public static void reverse(int nums[], int start, int end)
+    {
+        for(int i = end; i > start; i--)
         {
-
-            num2[index] = nums[i];
-            index++;
+            int temp = nums[start];
+            nums[start] = nums[i];
+            nums[i] = temp;
+            start++;
         }
-        System.out.println(num2);
-        for(int i = 0; i < start; i++)
+        for(int i : nums)
         {
-            num2[index] = nums[i];
-            index++;
-        }
-        for (int i : nums) {
             System.out.print(i + " ");
         }
         System.out.println();
-        for(int i : num2){
-            System.out.print(i + " ");
-        }
     }
 }
