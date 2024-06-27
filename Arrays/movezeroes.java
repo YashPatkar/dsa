@@ -37,7 +37,7 @@ class Solution {
 class movezeroes{
     public static void main(String[] args) {
         Solution s = new Solution();
-        int[] nums = {0,1,1};
+        int[] nums = {1,0,1};
         s.moveZeroes(nums);
         for(int i : nums)
         {
