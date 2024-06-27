@@ -38,6 +38,9 @@ class mergesortarray{
         int m = 3;
         int n = 3;
         obj.solve(nums1, m, nums2, n);
-
+        for(int i=0;i<nums1.length;i++)
+        {
+            System.out.println();
+        }
     }
 }
