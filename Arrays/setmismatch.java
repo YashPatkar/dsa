@@ -14,9 +14,25 @@ class setmismatch {
                 }
             }
         }
-        // for(int i = 0; i < nums.length; i++)
-        // {}  
+        for(int i = 1; i <= nums.length; i++)
+        {
+            if(check(nums, i) == 1)
+            {
+                arr[1] = i;
+                break;
+            }
+        }
         return arr;
+    }
+    public static int check(int nums[], int tar) {
+        for(int i = 0; i < nums.length; i++)
+        {
+            if(nums[i] == tar)
+            {
+                return 0;
+            }
+        }
+        return 1;
     }
     public static void main(String s[])
     {
