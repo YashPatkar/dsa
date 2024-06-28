@@ -16,19 +16,20 @@ class Solution {
             else
             {
                 int index = 0;
-                for(int i = 1; i < nums.length; i++)
+                for(int i = 0; i < nums.length; i++)
                 {
                     if(nums[i] != 0)
                     {
+                        int temp = nums[index];
                         nums[index] = nums[i];
+                        nums[i] = temp;
                         index++;
                     }
                 }
-                for(int i = nums.length - index + 1; i < nums.length; i++)
-                {
-                    System.out.println(nums.length - index + 1);
-                    nums[i] = 0;
-                }
+                // for(int i = nums.length - index + 1; i < nums.length; i++)
+                // {
+                //     nums[i] = 0;
+                // }
             }
         }
     }
@@ -37,7 +38,7 @@ class Solution {
 class movezeroes{
     public static void main(String[] args) {
         Solution s = new Solution();
-        int[] nums = {1,0,1};
+        int[] nums = { 0, 1, 0, 3, 12};
         s.moveZeroes(nums);
         for(int i : nums)
         {
