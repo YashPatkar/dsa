@@ -11,7 +11,7 @@ class Solution {
     public static void check(int index, int nums1[], int nums2[])
     {
         if(index == nums2.length - 1)
-        {/
+        {
             nums1[index] = -1;
         }
         else
