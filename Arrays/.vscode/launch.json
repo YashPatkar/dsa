@@ -6,6 +6,13 @@
     "configurations": [
         {
             "type": "java",
+            "name": "question34",
+            "request": "launch",
+            "mainClass": "question34",
+            "projectName": "Arrays_a6472fdd"
+        },
+        {
+            "type": "java",
             "name": "Current File",
             "request": "launch",
             "mainClass": "${file}"
